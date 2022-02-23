@@ -6,9 +6,11 @@ function Header()
 {
     return (
         <header className="header">
-            <img src={shroudLogo} alt="shroud-logo" />
-            <h1>Shroud</h1>
-            <h2>The Legend</h2>
+            <div className="logo">
+                <img src={shroudLogo} alt="shroud-logo" />
+                <h4>Shroud</h4>
+            </div>
+            <h5>The Legend</h5>
         </header>
     )
 }
